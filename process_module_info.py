@@ -23,7 +23,7 @@ def get_module_fields(json_file, module_key):
 
     return fields
 
-def get_all_classes_son(json_file):
+def get_all_classes_on(json_file):
     try:
         with open(json_file, 'r') as file:
             data = json.load(file)
@@ -121,7 +121,7 @@ def get_module_keys_from_file(deps_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process and retrieve module information from a JSON file.")
-    parser.add_argument("json_file", help="Path to the JSON file")
+    parser.add_argument("json_file", help="Path to the module-info.json file")
     parser.add_argument("--deps-file", help="Path to the deps.txt file containing module keys (one per line)")
     parser.add_argument("--module-key", help="Module key to retrieve fields for")
     parser.add_argument("--all-classes", action="store_true", help="Retrieve all unique classes in the JSON file")
@@ -155,7 +155,7 @@ if __name__ == "__main__":
             print(f"  {class_name}")
     if args.all_classes:
         # Retrieve and print all unique classes in the JSON file
-        all_classes = get_all_classes_son(json_file)
+        all_classes = get_all_classes_on(json_file)
         print("All Unique Classes in the JSON file:")
         for class_name in all_classes:
             print(f"  {class_name}")
