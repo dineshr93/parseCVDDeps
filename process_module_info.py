@@ -153,7 +153,7 @@ if __name__ == "__main__":
         print("All Unique Classes in the specified modules:")
         for class_name in all_classes:
             print(f"  {class_name}")
-    if args.all_classes:
+    elif args.all_classes:
         # Retrieve and print all unique classes in the JSON file
         all_classes = get_all_classes_on(json_file)
         print("All Unique Classes in the JSON file:")
