@@ -1,0 +1,2187 @@
+Module Key: adb
+Fields for module 'adb':
+  Class: EXECUTABLES
+  Path: packages/modules/adb
+  Tags: optional
+  Installed: out/host/linux-x86/bin/adb
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: adb
+  Test_config: None
+  Dependencies: AdbWinApi, libadb_crypto, libadb_host, libadb_pairing_auth, libadb_pairing_connection, libadb_protos, libadb_sysdeps, libadb_tls_connection, libandroidfw, libapp_processes_protos_full, libbase, libbrotli, libbuildversion, libc++_static, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcrypto, libcrypto_utils, libcutils, libdiagnose_usb, libfastdeploy_host, liblog, liblz4, libmdnssd, libopenscreen-discovery, libopenscreen-platform-impl, libprotobuf-cpp-full, libssl, libusb, libutils, libwinpthread, libz, libziparchive, libzstd
+  Shared_libs: None
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'adb':
+  - packages/modules/adb
+----------------------------------------
+Module Key: adb_connector
+Fields for module 'adb_connector':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/frontend/adb_connector
+  Tags: optional
+  Installed: out/host/linux-x86/bin/adb_connector, out/target/product/skilfish_car_cf/system/bin/adb_connector
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: adb_connector
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, liblog, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, liblog, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'adb_connector':
+  - device/google/cuttlefish/host/frontend/adb_connector
+----------------------------------------
+Module Key: allocd
+Fields for module 'allocd':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/libs/allocd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/allocd, out/target/product/skilfish_car_cf/system/bin/allocd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: allocd
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_allocd_utils, libcuttlefish_fs, libcuttlefish_utils, libdl, libgflags, libjsoncpp, liblog, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_allocd_utils, libcuttlefish_fs, libcuttlefish_utils, libdl, libjsoncpp, liblog, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'allocd':
+  - device/google/cuttlefish/host/libs/allocd
+----------------------------------------
+Module Key: allocd_client
+Fields for module 'allocd_client':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/libs/allocd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/allocd_client, out/target/product/skilfish_car_cf/system/bin/allocd_client
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: allocd_client
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_allocd_utils, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libgflags, libjsoncpp, liblog, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_allocd_utils, libcuttlefish_fs, libcuttlefish_utils, libdl, libjsoncpp, liblog, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'allocd_client':
+  - device/google/cuttlefish/host/libs/allocd
+----------------------------------------
+Module Key: assemble_cvd
+Fields for module 'assemble_cvd':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/assemble_cvd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/assemble_cvd, out/target/product/skilfish_car_cf/system/bin/assemble_cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: assemble_cvd
+  Test_config: None
+  Dependencies: bootimg_headers, cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libcdisk_spec, libclang_rt.builtins, libcuttlefish_allocd_utils, libcuttlefish_display_flags, libcuttlefish_fs, libcuttlefish_graphics_configuration, libcuttlefish_graphics_detector, libcuttlefish_host_config, libcuttlefish_host_config_adb, libcuttlefish_host_config_fastboot, libcuttlefish_launch_cvd_proto, libcuttlefish_utils, libcuttlefish_vm_manager, libdl, libext2_blkid, libext2_uuid, libfruit, libgflags, libicuuc, libimage_aggregator, libjsoncpp, libm, libnl, libprotobuf-cpp-full, libsparse, libz, libziparchive
+  Shared_libs: libbase, libc, libc++, libcuttlefish_allocd_utils, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libicuuc, libjsoncpp, libm, libnl, libprotobuf-cpp-full, libz, libziparchive
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'assemble_cvd':
+  - device/google/cuttlefish/host/commands/assemble_cvd
+----------------------------------------
+Module Key: avbtool
+Fields for module 'avbtool':
+  Class: EXECUTABLES
+  Path: external/avb
+  Tags: optional
+  Installed: out/host/linux-x86/bin/avbtool
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: avbtool
+  Test_config: None
+  Dependencies: libsqlite
+  Shared_libs: libsqlite
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'avbtool':
+  - external/avb
+----------------------------------------
+Module Key: tcp_connector
+Fields for module 'tcp_connector':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/tcp_connector
+  Tags: optional
+  Installed: out/host/linux-x86/bin/tcp_connector
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: tcp_connector
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libext2_blkid, libgflags, libjsoncpp, liblog
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libcuttlefish_utils, libext2_blkid, libjsoncpp, liblog
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'tcp_connector':
+  - device/google/cuttlefish/host/commands/tcp_connector
+----------------------------------------
+Module Key: common_crosvm
+Fields for module 'common_crosvm':
+  Class: EXECUTABLES
+  Path: external/crosvm/cuttlefish
+  Tags: optional
+  Installed: out/host/linux-x86/bin/crosvm
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: common_crosvm
+  Test_config: None
+  Dependencies: None
+  Shared_libs: None
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'common_crosvm':
+  - external/crosvm/cuttlefish
+----------------------------------------
+Module Key: config_server
+Fields for module 'config_server':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/config_server
+  Tags: optional
+  Installed: out/host/linux-x86/bin/config_server, out/target/product/skilfish_car_cf/system/bin/config_server
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: config_server
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_device_config, libcuttlefish_device_config_proto, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, liblog, libm, libprotobuf-cpp-full
+  Shared_libs: libbase, libc, libc++, libcuttlefish_device_config, libcuttlefish_device_config_proto, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libjsoncpp, liblog, libm, libprotobuf-cpp-full
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'config_server':
+  - device/google/cuttlefish/host/commands/config_server
+----------------------------------------
+Module Key: console_forwarder
+Fields for module 'console_forwarder':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/console_forwarder
+  Tags: optional
+  Installed: out/host/linux-x86/bin/console_forwarder, out/target/product/skilfish_car_cf/system/bin/console_forwarder
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: console_forwarder
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'console_forwarder':
+  - device/google/cuttlefish/host/commands/console_forwarder
+----------------------------------------
+Module Key: crosvm
+Fields for module 'crosvm':
+  Class: EXECUTABLES
+  Path: external/crosvm
+  Tags: optional
+  Installed: out/host/linux-x86/bin/x86_64-linux-gnu/crosvm, out/target/product/skilfish_car_cf/system/bin/crosvm
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: crosvm
+  Test_config: None
+  Dependencies: libacpi_tables.rlib-std, libanyhow.rlib-std, libarch.rlib-std, libargh.rlib-std, libargh_helpers, libaudio_streams.rlib-std, libbase_rust.rlib-std, libbit_field.rlib-std, libbroker_ipc.rlib-std, libc, libcfg_if.rlib-std, libclang_rt.builtins, libcros_async.rlib-std, libcros_tracing.rlib-std, libcrosvm_cli.rlib-std, libdata_model.rlib-std, libdevices.rlib-std, libdisk.rlib-std, libdl, libenumn, libgdbstub.rlib-std, libgdbstub_arch.rlib-std, libhypervisor.rlib-std, libjail.rlib-std, libkernel_cmdline.rlib-std, libkernel_loader.rlib-std, liblibc.rlib-std, liblibcras.rlib-std, liblog, liblog_rust.rlib-std, libm, libmerge.rlib-std, libmetrics.rlib-std, libminijail_rust.rlib-std, libnet_util.rlib-std, libonce_cell.rlib-std, libp9.rlib-std, libprocessgroup, libremain, libresources.rlib-std, librutabaga_gfx.rlib-std, libserde.rlib-std, libserde_json.rlib-std, libserde_keyvalue.rlib-std, libsmallvec.rlib-std, libstatic_assertions.rlib-std, libstd, libsync_rust.rlib-std, libtempfile.rlib-std, libthiserror.rlib-std, libuuid.rlib-std, libvhost.rlib-std, libvm_control.rlib-std, libvm_memory.rlib-std, libx86_64_rust.rlib-std
+  Shared_libs: libc, libdl, liblog, libm, libprocessgroup
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'crosvm':
+  - external/crosvm
+----------------------------------------
+Module Key: cvd
+Fields for module 'cvd':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/cvd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/acloud, out/host/linux-x86/bin/cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, cvd_and_fetch_cvd, libbase, libbuildversion, libc++_static, libclang_rt.builtins, libcrypto, libcurl, libcuttlefish_acloud_proto, libcuttlefish_cvd_proto, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_launch_cvd_proto, libcuttlefish_utils, libcuttlefish_web, libcvd_acloud, libcvd_fetch, libcvd_parser, libcvd_selector, libcvd_server_client, libcvd_sub_commands, libext2_blkid, libfruit, libgflags, libgtest_prod_headers, libicui18n, libicuuc, libicuuc_stubdata, libjsoncpp, liblog, libprotobuf-cpp-full, libssl, libxml2, libz
+  Shared_libs: None
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd':
+  - device/google/cuttlefish/host/commands/cvd
+----------------------------------------
+Module Key: cvd_internal_display
+Fields for module 'cvd_internal_display':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/display
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_internal_display
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_internal_display
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++_static, libclang_rt.builtins, libcuttlefish_display_flags, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libgflags, libjsoncpp, liblog
+  Shared_libs: None
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_internal_display':
+  - device/google/cuttlefish/host/commands/display
+----------------------------------------
+Module Key: cvd_internal_env
+Fields for module 'cvd_internal_env':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/cvd_env
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_internal_env
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_internal_env
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, grpc_cli_libs, libbase, libc++, libc++fs, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcuttlefish_vm_manager, libfruit, libgflags, libgrpc++, libicuuc, libjsoncpp, libprotobuf-cpp-full
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libcuttlefish_utils, libfruit, libgrpc++, libicuuc, libjsoncpp, libprotobuf-cpp-full
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_internal_env':
+  - device/google/cuttlefish/host/commands/cvd_env
+----------------------------------------
+Module Key: echo_server
+Fields for module 'echo_server':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/echo_server
+  Tags: optional
+  Installed: out/host/linux-x86/bin/echo_server
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: echo_server
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libc++, libclang_rt.builtins, libcuttlefish_host_config, libecho_server, libgflags, libgrpc++_reflection, libgrpc++_unsecure, libprotobuf-cpp-full
+  Shared_libs: libc++, libgrpc++_unsecure, libprotobuf-cpp-full
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'echo_server':
+  - device/google/cuttlefish/host/commands/echo_server
+----------------------------------------
+Module Key: cvd_internal_host_bugreport
+Fields for module 'cvd_internal_host_bugreport':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/host_bugreport
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_host_bugreport, out/host/linux-x86/bin/cvd_internal_host_bugreport, out/target/product/skilfish_car_cf/system/bin/cvd_host_bugreport, out/target/product/skilfish_car_cf/system/bin/cvd_internal_host_bugreport
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_internal_host_bugreport
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcuttlefish_vm_manager, libdl, libext2_blkid, libfruit, libgflags, libicuuc, libjsoncpp, libm, libziparchive
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libicuuc, libjsoncpp, libm, libziparchive
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_internal_host_bugreport':
+  - device/google/cuttlefish/host/commands/host_bugreport
+----------------------------------------
+Module Key: cvd_internal_start
+Fields for module 'cvd_internal_start':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/start
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_internal_start, out/host/linux-x86/bin/launch_cvd, out/target/product/skilfish_car_cf/system/bin/cvd_internal_start, out/target/product/skilfish_car_cf/system/bin/launch_cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_internal_start
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcuttlefish_vm_manager, libdl, libext2_blkid, libfruit, libgflags, libicuuc, libjsoncpp, libm, libnl, libxml2, libz
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libicuuc, libjsoncpp, libm, libnl, libxml2, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_internal_start':
+  - device/google/cuttlefish/host/commands/start
+----------------------------------------
+Module Key: cvd_internal_status
+Fields for module 'cvd_internal_status':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/status
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_internal_status, out/host/linux-x86/bin/cvd_status, out/target/product/skilfish_car_cf/system/bin/cvd_internal_status, out/target/product/skilfish_car_cf/system/bin/cvd_status
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_internal_status
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcuttlefish_command_util, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libgflags, libicuuc, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libicuuc, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_internal_status':
+  - device/google/cuttlefish/host/commands/status
+----------------------------------------
+Module Key: cvd_internal_stop
+Fields for module 'cvd_internal_stop':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/stop
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_internal_stop, out/host/linux-x86/bin/stop_cvd, out/target/product/skilfish_car_cf/system/bin/cvd_internal_stop, out/target/product/skilfish_car_cf/system/bin/stop_cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_internal_stop
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcuttlefish_allocd_utils, libcuttlefish_command_util, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libgflags, libicuuc, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_allocd_utils, libcuttlefish_fs, libcuttlefish_utils, libdl, libicuuc, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_internal_stop':
+  - device/google/cuttlefish/host/commands/stop
+----------------------------------------
+Module Key: cvd_host_bugreport
+Error: Module key 'cvd_host_bugreport' not found.
+Module Key: cvd_status
+Error: Module key 'cvd_status' not found.
+Module Key: cvd_test_gce_driver
+Fields for module 'cvd_test_gce_driver':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/test_gce_driver
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_test_gce_driver, out/target/product/skilfish_car_cf/system/bin/cvd_test_gce_driver
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_test_gce_driver
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++_static, libc++demangle, libclang_rt.builtins, libcrypto, libcurl, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_test_gce_proto_cpp, libcuttlefish_utils, libcuttlefish_web, libdl, libext2_blkid, libext2_uuid, libgflags, libjsoncpp, liblog, libm, libprotobuf-cpp-full, libssl, libz
+  Shared_libs: libbase, libc, libc++, libcrypto, libcurl, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_uuid, libjsoncpp, liblog, libm, libprotobuf-cpp-full, libssl, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_test_gce_driver':
+  - device/google/cuttlefish/host/commands/test_gce_driver
+----------------------------------------
+Module Key: cvdremote
+Fields for module 'cvdremote':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/remote
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvdremote
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvdremote
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcrypto, libcurl, libcuttlefish_fs, libcuttlefish_utils, libcuttlefish_web, libcvdremote, libgflags, libjsoncpp, liblog, libssl, libz
+  Shared_libs: libc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvdremote':
+  - device/google/cuttlefish/host/commands/remote
+----------------------------------------
+Module Key: e2fsdroid
+Fields for module 'e2fsdroid':
+  Class: EXECUTABLES
+  Path: external/e2fsprogs/contrib/android
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/e2fsdroid, out/target/product/skilfish_car_cf/system/bin/e2fsdroid
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: e2fsdroid
+  Test_config: None
+  Dependencies: libbase, libc, libc++_static, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcrypto, libcutils, libdl, libext2_com_err, libext2_misc, libext2fs, liblog, libselinux, libsparse, libz
+  Shared_libs: libc, libcrypto, libcutils, libdl, libext2_com_err, libext2_misc, libext2fs, liblog, libselinux
+  System_shared_libs: libc, libdl
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'e2fsdroid':
+  - external/e2fsprogs/contrib/android
+----------------------------------------
+Module Key: extract-ikconfig
+Fields for module 'extract-ikconfig':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish_prebuilts
+  Tags: optional
+  Installed: out/host/linux-x86/bin/extract-ikconfig
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: extract-ikconfig
+  Test_config: None
+  Dependencies: None
+  Shared_libs: None
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'extract-ikconfig':
+  - device/google/cuttlefish_prebuilts
+----------------------------------------
+Module Key: extract-vmlinux
+Fields for module 'extract-vmlinux':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish_prebuilts
+  Tags: optional
+  Installed: out/host/linux-x86/bin/extract-vmlinux
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: extract-vmlinux
+  Test_config: None
+  Dependencies: None
+  Shared_libs: None
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'extract-vmlinux':
+  - device/google/cuttlefish_prebuilts
+----------------------------------------
+Module Key: fastboot
+Fields for module 'fastboot':
+  Class: EXECUTABLES
+  Path: system/core/fastboot
+  Tags: optional
+  Installed: out/host/linux-x86/bin/fastboot
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: fastboot
+  Test_config: None
+  Dependencies: AdbWinApi, avb_headers, bootimg_headers, libbase, libbuildversion, libc++_static, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcrypto, libcutils, libdiagnose_usb, libext4_utils, libfastboot, libgtest_host, liblog, liblp, liblz4, libsparse, libutils, libwinpthread, libz, libziparchive
+  Shared_libs: None
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'fastboot':
+  - system/core/fastboot
+----------------------------------------
+Module Key: fec
+Fields for module 'fec':
+  Class: EXECUTABLES
+  Path: system/extras/verity/fec
+  Tags: optional
+  Installed: out/host/linux-x86/bin/fec
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: fec
+  Test_config: None
+  Dependencies: libavb, libbase, libc++, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcrypto, libcrypto_utils, libext4_utils, libfec, libfec_rs, liblog, libsparse, libsquashfs_utils, libz
+  Shared_libs: libc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'fec':
+  - system/extras/verity/fec
+----------------------------------------
+Module Key: fsck.f2fs
+Fields for module 'fsck.f2fs':
+  Class: EXECUTABLES
+  Path: external/f2fs-tools
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/defrag.f2fs, out/host/linux-x86/bin/dump.f2fs, out/host/linux-x86/bin/fsck.f2fs, out/host/linux-x86/bin/resize.f2fs, out/target/product/skilfish_car_cf/system/bin/defrag.f2fs, out/target/product/skilfish_car_cf/system/bin/dump.f2fs, out/target/product/skilfish_car_cf/system/bin/fsck.f2fs, out/target/product/skilfish_car_cf/system/bin/resize.f2fs
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: fsck.f2fs
+  Test_config: None
+  Dependencies: libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libdl, libext2_uuid, libm, libsparse
+  Shared_libs: libbase, libc, libc++, libdl, libext2_uuid, libm, libsparse
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'fsck.f2fs':
+  - external/f2fs-tools
+----------------------------------------
+Module Key: gnss_grpc_proxy
+Fields for module 'gnss_grpc_proxy':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/gnss_grpc_proxy
+  Tags: optional
+  Installed: out/host/linux-x86/bin/gnss_grpc_proxy
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: gnss_grpc_proxy
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcvd_gnss_grpc_proxy, libext2_blkid, libgflags, libgrpc++_reflection, libgrpc++_unsecure, libjsoncpp, libprotobuf-cpp-full
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libcuttlefish_utils, libext2_blkid, libgrpc++_unsecure, libjsoncpp, libprotobuf-cpp-full
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'gnss_grpc_proxy':
+  - device/google/cuttlefish/host/commands/gnss_grpc_proxy
+----------------------------------------
+Module Key: health
+Fields for module 'health':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/health
+  Tags: optional
+  Installed: out/host/linux-x86/bin/health, out/target/product/skilfish_car_cf/system/bin/health
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: health
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcuttlefish_vm_manager, libdl, libext2_blkid, libfruit, libgflags, libicuuc, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libicuuc, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'health':
+  - device/google/cuttlefish/host/commands/health
+----------------------------------------
+Module Key: kernel_log_monitor
+Fields for module 'kernel_log_monitor':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/kernel_log_monitor
+  Tags: optional
+  Installed: out/host/linux-x86/bin/kernel_log_monitor, out/target/product/skilfish_car_cf/system/bin/kernel_log_monitor
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: kernel_log_monitor
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_utils, libdl, libext2_blkid, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'kernel_log_monitor':
+  - device/google/cuttlefish/host/commands/kernel_log_monitor
+----------------------------------------
+Module Key: launch_cvd
+Error: Module key 'launch_cvd' not found.
+Module Key: libgrpc++
+Fields for module 'libgrpc++':
+  Class: SHARED_LIBRARIES
+  Path: external/grpc-grpc
+  Tags: optional
+  Installed: out/host/linux-x86/lib64/libgrpc++.so, out/target/product/skilfish_car_cf/system/lib64/libgrpc++.so
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: libgrpc++
+  Test_config: None
+  Dependencies: libc, libc++, libc++demangle, libclang_rt.builtins, libcrypto, libdl, libgrpc, libgrpc++_base, liblog, libm, libssl, libz
+  Shared_libs: libc, libc++, libcrypto, libdl, liblog, libm, libssl, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'libgrpc++':
+  - external/grpc-grpc
+----------------------------------------
+Module Key: libgrpc++_unsecure
+Fields for module 'libgrpc++_unsecure':
+  Class: SHARED_LIBRARIES
+  Path: external/grpc-grpc
+  Tags: optional
+  Installed: out/host/linux-x86/lib64/libgrpc++_unsecure.so, out/target/product/skilfish_car_cf/system/lib64/libgrpc++_unsecure.so
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: libgrpc++_unsecure
+  Test_config: None
+  Dependencies: libc, libc++, libc++demangle, libclang_rt.builtins, libdl, libgrpc++_base_unsecure, libgrpc_unsecure, liblog, libm, libz
+  Shared_libs: libc, libc++, libdl, liblog, libm, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'libgrpc++_unsecure':
+  - external/grpc-grpc
+----------------------------------------
+Module Key: log_tee
+Fields for module 'log_tee':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/log_tee
+  Tags: optional
+  Installed: out/host/linux-x86/bin/log_tee, out/target/product/skilfish_car_cf/system/bin/log_tee
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: log_tee
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcuttlefish_vm_manager, libdl, libext2_blkid, libfruit, libgflags, libicuuc, libjsoncpp, libm, libnl
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libicuuc, libjsoncpp, libm, libnl
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'log_tee':
+  - device/google/cuttlefish/host/commands/log_tee
+----------------------------------------
+Module Key: logcat_receiver
+Fields for module 'logcat_receiver':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/logcat_receiver
+  Tags: optional
+  Installed: out/host/linux-x86/bin/logcat_receiver, out/target/product/skilfish_car_cf/system/bin/logcat_receiver
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: logcat_receiver
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, liblog, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libjsoncpp, liblog, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'logcat_receiver':
+  - device/google/cuttlefish/host/commands/logcat_receiver
+----------------------------------------
+Module Key: lpadd
+Fields for module 'lpadd':
+  Class: EXECUTABLES
+  Path: system/extras/partition_tools
+  Tags: optional
+  Installed: out/host/linux-x86/bin/lpadd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: lpadd
+  Test_config: None
+  Dependencies: libbase, libc++, liblog, liblp, libsparse
+  Shared_libs: libbase, libc++, liblog, liblp, libsparse
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'lpadd':
+  - system/extras/partition_tools
+----------------------------------------
+Module Key: lpmake
+Fields for module 'lpmake':
+  Class: EXECUTABLES
+  Path: system/extras/partition_tools
+  Tags: optional
+  Installed: out/host/linux-x86/bin/lpmake
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: lpmake
+  Test_config: None
+  Dependencies: libbase, libc++, libc++_static, liblog, liblp, libwinpthread
+  Shared_libs: libbase, libc++, liblog, liblp
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'lpmake':
+  - system/extras/partition_tools
+----------------------------------------
+Module Key: lpunpack
+Fields for module 'lpunpack':
+  Class: EXECUTABLES
+  Path: system/extras/partition_tools
+  Tags: optional
+  Installed: out/host/linux-x86/bin/lpunpack
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: lpunpack
+  Test_config: None
+  Dependencies: libbase, libc++, liblog, liblp, libsparse
+  Shared_libs: libbase, libc++, liblog, liblp, libsparse
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'lpunpack':
+  - system/extras/partition_tools
+----------------------------------------
+Module Key: lz4
+Fields for module 'lz4':
+  Class: EXECUTABLES
+  Path: external/lz4/programs
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/lz4
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: lz4
+  Test_config: None
+  Dependencies: libc++_static, libclang_rt.builtins, liblz4
+  Shared_libs: None
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'lz4':
+  - external/lz4/programs
+----------------------------------------
+Module Key: make_f2fs
+Fields for module 'make_f2fs':
+  Class: EXECUTABLES
+  Path: external/f2fs-tools
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/make_f2fs, out/target/product/skilfish_car_cf/system/bin/make_f2fs
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: make_f2fs
+  Test_config: None
+  Dependencies: libbase, libc, libc++, libc++_static, libc++demangle, libclang_rt.builtins, libdl, libext2_uuid, libf2fs_fmt, libf2fs_fmt_host, libm, libsparse, libwinpthread, libz
+  Shared_libs: libbase, libc, libc++, libdl, libext2_uuid, libm, libsparse
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'make_f2fs':
+  - external/f2fs-tools
+----------------------------------------
+Module Key: metrics
+Fields for module 'metrics':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/metrics
+  Tags: optional
+  Installed: out/host/linux-x86/bin/metrics, out/target/product/skilfish_car_cf/system/bin/metrics
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: metrics
+  Test_config: None
+  Dependencies: cf_proto, cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcurl, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_msg_queue, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libgflags, libjsoncpp, liblog, libm, libprotobuf-cpp-lite, libz
+  Shared_libs: cf_proto, libbase, libc, libc++, libcurl, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libjsoncpp, liblog, libm, libprotobuf-cpp-lite, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'metrics':
+  - device/google/cuttlefish/host/commands/metrics
+----------------------------------------
+Module Key: mkbootfs
+Fields for module 'mkbootfs':
+  Class: EXECUTABLES
+  Path: system/core/mkbootfs
+  Tags: optional
+  Installed: out/host/linux-x86/bin/mkbootfs
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: mkbootfs
+  Test_config: None
+  Dependencies: libbase, libc++, libclang_rt.builtins, libcutils, liblog
+  Shared_libs: libc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'mkbootfs':
+  - system/core/mkbootfs
+----------------------------------------
+Module Key: mkbootimg
+Fields for module 'mkbootimg':
+  Class: EXECUTABLES
+  Path: system/tools/mkbootimg
+  Tags: optional
+  Installed: out/host/linux-x86/bin/mkbootimg
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: mkbootimg
+  Test_config: None
+  Dependencies: libsqlite
+  Shared_libs: libsqlite
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'mkbootimg':
+  - system/tools/mkbootimg
+----------------------------------------
+Module Key: mkenvimage_slim
+Fields for module 'mkenvimage_slim':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/mkenvimage_slim
+  Tags: optional
+  Installed: out/host/linux-x86/bin/mkenvimage_slim, out/target/product/skilfish_car_cf/system/bin/mkenvimage_slim
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: mkenvimage_slim
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_utils, libdl, libgflags, libicuuc, liblog, libm, libz
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libgflags, libicuuc, liblog, libm, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'mkenvimage_slim':
+  - device/google/cuttlefish/host/commands/mkenvimage_slim
+----------------------------------------
+Module Key: mke2fs
+Fields for module 'mke2fs':
+  Class: EXECUTABLES
+  Path: external/e2fsprogs/misc
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/mke2fs, out/target/product/skilfish_car_cf/system/bin/mke2fs, out/target/product/skilfish_car_cf/system/bin/mkfs.ext2, out/target/product/skilfish_car_cf/system/bin/mkfs.ext3, out/target/product/skilfish_car_cf/system/bin/mkfs.ext4
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: mke2fs
+  Test_config: None
+  Dependencies: libbase, libc, libc++_static, libc++demangle, libclang_rt.builtins, libdl, libext2_blkid, libext2_com_err, libext2_e2p, libext2_misc, libext2_quota, libext2_uuid, libext2fs, libsparse, libwinpthread, libz
+  Shared_libs: libc, libdl, libext2_blkid, libext2_com_err, libext2_e2p, libext2_misc, libext2_quota, libext2_uuid, libext2fs
+  System_shared_libs: libc, libdl
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'mke2fs':
+  - external/e2fsprogs/misc
+----------------------------------------
+Module Key: mkuserimg_mke2fs
+Fields for module 'mkuserimg_mke2fs':
+  Class: EXECUTABLES
+  Path: system/extras/ext4_utils
+  Tags: optional
+  Installed: out/host/linux-x86/bin/mkuserimg_mke2fs
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: mkuserimg_mke2fs
+  Test_config: None
+  Dependencies: libsqlite
+  Shared_libs: libsqlite
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'mkuserimg_mke2fs':
+  - system/extras/ext4_utils
+----------------------------------------
+Module Key: modem_simulator
+Fields for module 'modem_simulator':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/modem_simulator
+  Tags: optional
+  Installed: out/host/linux-x86/bin/modem_simulator, out/target/product/skilfish_car_cf/system/bin/modem_simulator
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: modem_simulator
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_device_config, libcuttlefish_device_config_proto, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, libm, libnl, libtinyxml2
+  Shared_libs: libbase, libc, libc++, libcuttlefish_device_config, libcuttlefish_device_config_proto, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libjsoncpp, libm, libnl
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'modem_simulator':
+  - device/google/cuttlefish/host/commands/modem_simulator
+----------------------------------------
+Module Key: ms-tpm-20-ref
+Fields for module 'ms-tpm-20-ref':
+  Class: EXECUTABLES
+  Path: external/ms-tpm-20-ref
+  Tags: optional
+  Installed: out/host/linux-x86/bin/ms-tpm-20-ref
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: ms-tpm-20-ref
+  Test_config: None
+  Dependencies: libc++, libclang_rt.builtins, libcrypto, ms-tpm-20-ref-lib
+  Shared_libs: libc++, libcrypto
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'ms-tpm-20-ref':
+  - external/ms-tpm-20-ref
+----------------------------------------
+Module Key: mcopy
+Error: Module key 'mcopy' not found.
+Module Key: mmd
+Error: Module key 'mmd' not found.
+Module Key: mtools
+Fields for module 'mtools':
+  Class: EXECUTABLES
+  Path: external/mtools
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/mcopy, out/host/linux-x86/bin/mmd, out/host/linux-x86/bin/mtools
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: mtools
+  Test_config: None
+  Dependencies: libc++
+  Shared_libs: libc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'mtools':
+  - external/mtools
+----------------------------------------
+Module Key: netsim
+Fields for module 'netsim':
+  Class: EXECUTABLES
+  Path: tools/netsim
+  Tags: optional
+  Installed: out/host/linux-x86/bin/netsim
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: netsim
+  Test_config: None
+  Dependencies: lib-netsim-frontend-client, lib-netsim-frontend-proto, libc++, libc++fs, libclang_rt.builtins, libgrpc++, libnetsim_cli, libprotobuf-cpp-full
+  Shared_libs: libc++, libgrpc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'netsim':
+  - tools/netsim
+----------------------------------------
+Module Key: netsimd
+Fields for module 'netsimd':
+  Class: EXECUTABLES
+  Path: tools/netsim
+  Tags: optional
+  Installed: out/host/linux-x86/bin/netsimd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: netsimd
+  Test_config: None
+  Dependencies: lib-netsim, lib-netsim-frontend-proto, libbase, libbt-rootcanal, libc++, libc++fs, libcap, libclang_rt.builtins, libcrypto, libgrpc++, libjsoncpp, libnetsim_cxx, libprotobuf-cpp-full, libscriptedbeaconpayload-protos-lite, libssl
+  Shared_libs: libbase, libc++, libcap, libcrypto, libgrpc++, libssl
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'netsimd':
+  - tools/netsim
+----------------------------------------
+Module Key: newfs_msdos
+Fields for module 'newfs_msdos':
+  Class: EXECUTABLES
+  Path: external/newfs_msdos
+  Tags: optional
+  Installed: out/host/linux-x86/bin/newfs_msdos, out/target/product/skilfish_car_cf/system/bin/newfs_msdos
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: newfs_msdos
+  Test_config: None
+  Dependencies: libc, libc++, libc++demangle, libclang_rt.builtins, libdl, libm
+  Shared_libs: libc, libc++, libdl, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'newfs_msdos':
+  - external/newfs_msdos
+----------------------------------------
+Module Key: openwrt_control_server
+Fields for module 'openwrt_control_server':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/openwrt_control_server
+  Tags: optional
+  Installed: out/host/linux-x86/bin/openwrt_control_server
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: openwrt_control_server
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_host_config, libcuttlefish_utils, libgflags, libgrpc++_reflection, libgrpc++_unsecure, libopenwrt_control_server, libprotobuf-cpp-full
+  Shared_libs: libbase, libc++, libcuttlefish_utils, libgrpc++_unsecure, libprotobuf-cpp-full
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'openwrt_control_server':
+  - device/google/cuttlefish/host/commands/openwrt_control_server
+----------------------------------------
+Module Key: pica
+Fields for module 'pica':
+  Class: EXECUTABLES
+  Path: external/rust/pica
+  Tags: optional
+  Installed: out/host/linux-x86/bin/pica
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: pica
+  Test_config: None
+  Dependencies: libanyhow.rlib-std, libclap.rlib-std, libnum_derive, libpica.rlib-std, libstd, libtokio.rlib-std
+  Shared_libs: None
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'pica':
+  - external/rust/pica
+----------------------------------------
+Module Key: powerwash_cvd
+Fields for module 'powerwash_cvd':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/powerwash_cvd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/powerwash_cvd, out/target/product/skilfish_car_cf/system/bin/powerwash_cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: powerwash_cvd
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcuttlefish_command_util, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libgflags, libicuuc, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libicuuc, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'powerwash_cvd':
+  - device/google/cuttlefish/host/commands/powerwash_cvd
+----------------------------------------
+Module Key: process_restarter
+Fields for module 'process_restarter':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/process_restarter
+  Tags: optional
+  Installed: out/host/linux-x86/bin/process_restarter
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: process_restarter
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_host_config, libcuttlefish_utils, libgflags, libjsoncpp
+  Shared_libs: libbase, libc++, libcuttlefish_utils, libgflags, libjsoncpp
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'process_restarter':
+  - device/google/cuttlefish/host/commands/process_restarter
+----------------------------------------
+Module Key: restart_cvd
+Fields for module 'restart_cvd':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/restart_cvd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/restart_cvd, out/target/product/skilfish_car_cf/system/bin/restart_cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: restart_cvd
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcuttlefish_command_util, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libgflags, libicuuc, libjsoncpp, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libicuuc, libjsoncpp, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'restart_cvd':
+  - device/google/cuttlefish/host/commands/restart_cvd
+----------------------------------------
+Module Key: root-canal
+Fields for module 'root-canal':
+  Class: EXECUTABLES
+  Path: packages/modules/Bluetooth/tools/rootcanal
+  Tags: optional
+  Installed: out/host/linux-x86/bin/root-canal
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: root-canal
+  Test_config: None
+  Dependencies: breakpad_client, jni_headers, libbase, libbase_headers, libbluetooth_headers, libbt-rootcanal, libc++, libc++fs, libclang_rt.builtins, libcrypto, libgflags, libprotobuf-cpp-full, libscriptedbeaconpayload-protos-lite, libunwindstack
+  Shared_libs: libbase, libc++, libunwindstack
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'root-canal':
+  - packages/modules/Bluetooth/tools/rootcanal
+----------------------------------------
+Module Key: run_cvd
+Fields for module 'run_cvd':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/run_cvd
+  Tags: optional
+  Installed: out/host/linux-x86/bin/run_cvd, out/target/product/skilfish_car_cf/system/bin/run_cvd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: run_cvd
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_host_config_adb, libcuttlefish_host_config_fastboot, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_metrics, libcuttlefish_msg_queue, libcuttlefish_utils, libcuttlefish_vm_manager, libdl, libext2_blkid, libfruit, libgflags, libicuuc, libjsoncpp, libm, libnl
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_utils, libdl, libext2_blkid, libfruit, libicuuc, libjsoncpp, libm, libnl
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'run_cvd':
+  - device/google/cuttlefish/host/commands/run_cvd
+----------------------------------------
+Module Key: secure_env
+Fields for module 'secure_env':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/secure_env
+  Tags: optional
+  Installed: out/host/linux-x86/bin/secure_env
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: secure_env
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libc++_static, libclang_rt.builtins, libcppbor_external, libcppcose_rkp, libcrypto, libcutils, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_security, libcuttlefish_utils, libext2_blkid, libfruit, libgatekeeper, libgflags_cuttlefish, libjsoncpp, libkeymaster_messages, libkeymaster_portable, libkmr_cf_ffi, liblog, libpuresoftkeymasterdevice_host, libscrypt_static, libsecure_env_linux, libsecure_env_win, libsoft_attestation_cert, libwinpthread, ms-tpm-20-ref-lib, tpm2-tss2-esys, tpm2-tss2-mu, tpm2-tss2-rc, tpm2-tss2-tcti
+  Shared_libs: libbase, libc++, libcppbor_external, libcppcose_rkp, libcrypto, libcutils, libcuttlefish_fs, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_security, libcuttlefish_utils, libext2_blkid, libfruit, libgatekeeper, libjsoncpp, libkeymaster_messages, libkeymaster_portable, libkmr_cf_ffi, liblog, libpuresoftkeymasterdevice_host, libsoft_attestation_cert, tpm2-tss2-esys, tpm2-tss2-mu, tpm2-tss2-rc, tpm2-tss2-tcti
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'secure_env':
+  - device/google/cuttlefish/host/commands/secure_env
+----------------------------------------
+Module Key: sefcontext_compile
+Fields for module 'sefcontext_compile':
+  Class: EXECUTABLES
+  Path: external/selinux/libselinux
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/sefcontext_compile
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: sefcontext_compile
+  Test_config: None
+  Dependencies: libbase_headers, libc++, libclang_rt.builtins, libcutils_headers, liblog_headers, libselinux, libsepol
+  Shared_libs: libc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'sefcontext_compile':
+  - external/selinux/libselinux
+----------------------------------------
+Module Key: cvd_send_sms
+Fields for module 'cvd_send_sms':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/cvd_send_sms
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_send_sms
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_send_sms
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcvd_send_sms, libgflags, libicuuc, liblog
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libicuuc, liblog
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_send_sms':
+  - device/google/cuttlefish/host/commands/cvd_send_sms
+----------------------------------------
+Module Key: cvd_update_location
+Fields for module 'cvd_update_location':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/cvd_update_location
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_update_location
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_update_location
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcvd_gnss_grpc_proxy, libext2_blkid, libgflags, libgrpc++_unsecure, libicuuc, libjsoncpp, liblocation, liblog, libprotobuf-cpp-full
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libcuttlefish_utils, libext2_blkid, libgrpc++_unsecure, libicuuc, libjsoncpp, liblog, libprotobuf-cpp-full
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_update_location':
+  - device/google/cuttlefish/host/commands/cvd_update_location
+----------------------------------------
+Module Key: cvd_import_locations
+Fields for module 'cvd_import_locations':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/cvd_import_locations
+  Tags: optional
+  Installed: out/host/linux-x86/bin/cvd_import_locations
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: cvd_import_locations
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcvd_gnss_grpc_proxy, libext2_blkid, libgflags, libgrpc++_unsecure, libicuuc, libjsoncpp, liblocation, liblog, libprotobuf-cpp-full, libxml2
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libcuttlefish_utils, libext2_blkid, libgrpc++_unsecure, libicuuc, libjsoncpp, liblog, libprotobuf-cpp-full, libxml2
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'cvd_import_locations':
+  - device/google/cuttlefish/host/commands/cvd_import_locations
+----------------------------------------
+Module Key: simg2img
+Fields for module 'simg2img':
+  Class: EXECUTABLES
+  Path: system/core/libsparse
+  Tags: optional
+  Installed: out/host/linux-x86/bin/simg2img, out/target/product/skilfish_car_cf/system/bin/simg2img
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: simg2img
+  Test_config: None
+  Dependencies: libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libclang_rt.ubsan_minimal, libdl, libm, libsparse, libz
+  Shared_libs: libc, libc++, libdl, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'simg2img':
+  - system/core/libsparse
+----------------------------------------
+Module Key: socket_vsock_proxy
+Fields for module 'socket_vsock_proxy':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/common/frontend/socket_vsock_proxy
+  Tags: optional
+  Installed: out/host/linux-x86/bin/socket_vsock_proxy, out/target/product/skilfish_car_cf/vendor/bin/socket_vsock_proxy
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: socket_vsock_proxy
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, cuttlefish_common_headers.vendor, libbase, libbase.vendor, libc++, libc++.vendor, libc++demangle.vendor, libc.vendor, libclang_rt.builtins, libclang_rt.builtins.vendor, libclang_rt.ubsan_minimal.vendor, libcuttlefish_fs, libcuttlefish_fs.vendor, libcuttlefish_host_config, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_kernel_log_monitor_utils.vendor, libcuttlefish_utils, libcuttlefish_utils.vendor, libdl.vendor, libext2_blkid, libext2_blkid.vendor, libgflags, libgflags.vendor, libjsoncpp, libjsoncpp.vendor, liblog, liblog.vendor, libm.vendor
+  Shared_libs: libbase, libbase.vendor, libc++, libc++.vendor, libc.vendor, libcuttlefish_fs, libcuttlefish_fs.vendor, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_kernel_log_monitor_utils.vendor, libcuttlefish_utils, libcuttlefish_utils.vendor, libdl.vendor, libext2_blkid, libext2_blkid.vendor, libjsoncpp, libjsoncpp.vendor, liblog, liblog.vendor, libm.vendor
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'socket_vsock_proxy':
+  - device/google/cuttlefish/common/frontend/socket_vsock_proxy
+----------------------------------------
+Module Key: stop_cvd
+Error: Module key 'stop_cvd' not found.
+Module Key: test_cvd_load_parser
+Fields for module 'test_cvd_load_parser':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/cvd_load_tester
+  Tags: optional
+  Installed: out/host/linux-x86/bin/test_cvd_load_parser
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: test_cvd_load_parser
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_launch_cvd_proto, libcuttlefish_utils, libcvd_parser, libext2_blkid, libgflags, libgrpc++_unsecure, libicuuc, libjsoncpp, liblog, libprotobuf-cpp-full, libxml2
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libcuttlefish_utils, libext2_blkid, libgrpc++_unsecure, libicuuc, libjsoncpp, liblog, libxml2
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'test_cvd_load_parser':
+  - device/google/cuttlefish/host/commands/cvd_load_tester
+----------------------------------------
+Module Key: tombstone_receiver
+Fields for module 'tombstone_receiver':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/tombstone_receiver
+  Tags: optional
+  Installed: out/host/linux-x86/bin/tombstone_receiver, out/target/product/skilfish_car_cf/system/bin/tombstone_receiver
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: tombstone_receiver
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc, libc++, libc++demangle, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libdl, libext2_blkid, libgflags, libjsoncpp, liblog, libm
+  Shared_libs: libbase, libc, libc++, libcuttlefish_fs, libcuttlefish_utils, libdl, libext2_blkid, libjsoncpp, liblog, libm
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'tombstone_receiver':
+  - device/google/cuttlefish/host/commands/tombstone_receiver
+----------------------------------------
+Module Key: toybox
+Fields for module 'toybox':
+  Class: EXECUTABLES
+  Path: external/toybox
+  Tags: optional
+  Installed: out/host/linux-x86/bin/toybox, out/target/product/skilfish_car_cf/system/bin/[, out/target/product/skilfish_car_cf/system/bin/acpi, out/target/product/skilfish_car_cf/system/bin/base64, out/target/product/skilfish_car_cf/system/bin/basename, out/target/product/skilfish_car_cf/system/bin/blockdev, out/target/product/skilfish_car_cf/system/bin/brctl, out/target/product/skilfish_car_cf/system/bin/cal, out/target/product/skilfish_car_cf/system/bin/cat, out/target/product/skilfish_car_cf/system/bin/chattr, out/target/product/skilfish_car_cf/system/bin/chcon, out/target/product/skilfish_car_cf/system/bin/chgrp, out/target/product/skilfish_car_cf/system/bin/chmod, out/target/product/skilfish_car_cf/system/bin/chown, out/target/product/skilfish_car_cf/system/bin/chroot, out/target/product/skilfish_car_cf/system/bin/chrt, out/target/product/skilfish_car_cf/system/bin/cksum, out/target/product/skilfish_car_cf/system/bin/clear, out/target/product/skilfish_car_cf/system/bin/cmp, out/target/product/skilfish_car_cf/system/bin/comm, out/target/product/skilfish_car_cf/system/bin/cp, out/target/product/skilfish_car_cf/system/bin/cpio, out/target/product/skilfish_car_cf/system/bin/cut, out/target/product/skilfish_car_cf/system/bin/date, out/target/product/skilfish_car_cf/system/bin/dd, out/target/product/skilfish_car_cf/system/bin/devmem, out/target/product/skilfish_car_cf/system/bin/df, out/target/product/skilfish_car_cf/system/bin/diff, out/target/product/skilfish_car_cf/system/bin/dirname, out/target/product/skilfish_car_cf/system/bin/dmesg, out/target/product/skilfish_car_cf/system/bin/dos2unix, out/target/product/skilfish_car_cf/system/bin/du, out/target/product/skilfish_car_cf/system/bin/echo, out/target/product/skilfish_car_cf/system/bin/egrep, out/target/product/skilfish_car_cf/system/bin/env, out/target/product/skilfish_car_cf/system/bin/expand, out/target/product/skilfish_car_cf/system/bin/expr, out/target/product/skilfish_car_cf/system/bin/fallocate, out/target/product/skilfish_car_cf/system/bin/false, out/target/product/skilfish_car_cf/system/bin/fgrep, out/target/product/skilfish_car_cf/system/bin/file, out/target/product/skilfish_car_cf/system/bin/find, out/target/product/skilfish_car_cf/system/bin/flock, out/target/product/skilfish_car_cf/system/bin/fmt, out/target/product/skilfish_car_cf/system/bin/free, out/target/product/skilfish_car_cf/system/bin/fsync, out/target/product/skilfish_car_cf/system/bin/getconf, out/target/product/skilfish_car_cf/system/bin/getenforce, out/target/product/skilfish_car_cf/system/bin/grep, out/target/product/skilfish_car_cf/system/bin/groups, out/target/product/skilfish_car_cf/system/bin/gunzip, out/target/product/skilfish_car_cf/system/bin/gzip, out/target/product/skilfish_car_cf/system/bin/head, out/target/product/skilfish_car_cf/system/bin/hostname, out/target/product/skilfish_car_cf/system/bin/hwclock, out/target/product/skilfish_car_cf/system/bin/i2cdetect, out/target/product/skilfish_car_cf/system/bin/i2cdump, out/target/product/skilfish_car_cf/system/bin/i2cget, out/target/product/skilfish_car_cf/system/bin/i2cset, out/target/product/skilfish_car_cf/system/bin/iconv, out/target/product/skilfish_car_cf/system/bin/id, out/target/product/skilfish_car_cf/system/bin/ifconfig, out/target/product/skilfish_car_cf/system/bin/inotifyd, out/target/product/skilfish_car_cf/system/bin/insmod, out/target/product/skilfish_car_cf/system/bin/install, out/target/product/skilfish_car_cf/system/bin/ionice, out/target/product/skilfish_car_cf/system/bin/iorenice, out/target/product/skilfish_car_cf/system/bin/kill, out/target/product/skilfish_car_cf/system/bin/killall, out/target/product/skilfish_car_cf/system/bin/ln, out/target/product/skilfish_car_cf/system/bin/load_policy, out/target/product/skilfish_car_cf/system/bin/log, out/target/product/skilfish_car_cf/system/bin/logger, out/target/product/skilfish_car_cf/system/bin/logname, out/target/product/skilfish_car_cf/system/bin/losetup, out/target/product/skilfish_car_cf/system/bin/ls, out/target/product/skilfish_car_cf/system/bin/lsattr, out/target/product/skilfish_car_cf/system/bin/lsmod, out/target/product/skilfish_car_cf/system/bin/lsof, out/target/product/skilfish_car_cf/system/bin/lspci, out/target/product/skilfish_car_cf/system/bin/lsusb, out/target/product/skilfish_car_cf/system/bin/md5sum, out/target/product/skilfish_car_cf/system/bin/microcom, out/target/product/skilfish_car_cf/system/bin/mkdir, out/target/product/skilfish_car_cf/system/bin/mkfifo, out/target/product/skilfish_car_cf/system/bin/mknod, out/target/product/skilfish_car_cf/system/bin/mkswap, out/target/product/skilfish_car_cf/system/bin/mktemp, out/target/product/skilfish_car_cf/system/bin/modinfo, out/target/product/skilfish_car_cf/system/bin/more, out/target/product/skilfish_car_cf/system/bin/mount, out/target/product/skilfish_car_cf/system/bin/mountpoint, out/target/product/skilfish_car_cf/system/bin/mv, out/target/product/skilfish_car_cf/system/bin/nc, out/target/product/skilfish_car_cf/system/bin/netcat, out/target/product/skilfish_car_cf/system/bin/netstat, out/target/product/skilfish_car_cf/system/bin/nice, out/target/product/skilfish_car_cf/system/bin/nl, out/target/product/skilfish_car_cf/system/bin/nohup, out/target/product/skilfish_car_cf/system/bin/nproc, out/target/product/skilfish_car_cf/system/bin/nsenter, out/target/product/skilfish_car_cf/system/bin/od, out/target/product/skilfish_car_cf/system/bin/paste, out/target/product/skilfish_car_cf/system/bin/patch, out/target/product/skilfish_car_cf/system/bin/pgrep, out/target/product/skilfish_car_cf/system/bin/pidof, out/target/product/skilfish_car_cf/system/bin/pkill, out/target/product/skilfish_car_cf/system/bin/pmap, out/target/product/skilfish_car_cf/system/bin/printenv, out/target/product/skilfish_car_cf/system/bin/printf, out/target/product/skilfish_car_cf/system/bin/ps, out/target/product/skilfish_car_cf/system/bin/pwd, out/target/product/skilfish_car_cf/system/bin/readelf, out/target/product/skilfish_car_cf/system/bin/readlink, out/target/product/skilfish_car_cf/system/bin/realpath, out/target/product/skilfish_car_cf/system/bin/renice, out/target/product/skilfish_car_cf/system/bin/restorecon, out/target/product/skilfish_car_cf/system/bin/rm, out/target/product/skilfish_car_cf/system/bin/rmdir, out/target/product/skilfish_car_cf/system/bin/rmmod, out/target/product/skilfish_car_cf/system/bin/rtcwake, out/target/product/skilfish_car_cf/system/bin/runcon, out/target/product/skilfish_car_cf/system/bin/sed, out/target/product/skilfish_car_cf/system/bin/sendevent, out/target/product/skilfish_car_cf/system/bin/seq, out/target/product/skilfish_car_cf/system/bin/setenforce, out/target/product/skilfish_car_cf/system/bin/setsid, out/target/product/skilfish_car_cf/system/bin/sha1sum, out/target/product/skilfish_car_cf/system/bin/sha224sum, out/target/product/skilfish_car_cf/system/bin/sha256sum, out/target/product/skilfish_car_cf/system/bin/sha384sum, out/target/product/skilfish_car_cf/system/bin/sha512sum, out/target/product/skilfish_car_cf/system/bin/sleep, out/target/product/skilfish_car_cf/system/bin/sort, out/target/product/skilfish_car_cf/system/bin/split, out/target/product/skilfish_car_cf/system/bin/stat, out/target/product/skilfish_car_cf/system/bin/strings, out/target/product/skilfish_car_cf/system/bin/stty, out/target/product/skilfish_car_cf/system/bin/swapoff, out/target/product/skilfish_car_cf/system/bin/swapon, out/target/product/skilfish_car_cf/system/bin/sync, out/target/product/skilfish_car_cf/system/bin/sysctl, out/target/product/skilfish_car_cf/system/bin/tac, out/target/product/skilfish_car_cf/system/bin/tail, out/target/product/skilfish_car_cf/system/bin/tar, out/target/product/skilfish_car_cf/system/bin/taskset, out/target/product/skilfish_car_cf/system/bin/tee, out/target/product/skilfish_car_cf/system/bin/test, out/target/product/skilfish_car_cf/system/bin/time, out/target/product/skilfish_car_cf/system/bin/timeout, out/target/product/skilfish_car_cf/system/bin/top, out/target/product/skilfish_car_cf/system/bin/touch, out/target/product/skilfish_car_cf/system/bin/toybox, out/target/product/skilfish_car_cf/system/bin/tr, out/target/product/skilfish_car_cf/system/bin/true, out/target/product/skilfish_car_cf/system/bin/truncate, out/target/product/skilfish_car_cf/system/bin/tty, out/target/product/skilfish_car_cf/system/bin/uclampset, out/target/product/skilfish_car_cf/system/bin/ulimit, out/target/product/skilfish_car_cf/system/bin/umount, out/target/product/skilfish_car_cf/system/bin/uname, out/target/product/skilfish_car_cf/system/bin/uniq, out/target/product/skilfish_car_cf/system/bin/unix2dos, out/target/product/skilfish_car_cf/system/bin/unlink, out/target/product/skilfish_car_cf/system/bin/unshare, out/target/product/skilfish_car_cf/system/bin/uptime, out/target/product/skilfish_car_cf/system/bin/usleep, out/target/product/skilfish_car_cf/system/bin/uudecode, out/target/product/skilfish_car_cf/system/bin/uuencode, out/target/product/skilfish_car_cf/system/bin/uuidgen, out/target/product/skilfish_car_cf/system/bin/vi, out/target/product/skilfish_car_cf/system/bin/vmstat, out/target/product/skilfish_car_cf/system/bin/watch, out/target/product/skilfish_car_cf/system/bin/wc, out/target/product/skilfish_car_cf/system/bin/which, out/target/product/skilfish_car_cf/system/bin/whoami, out/target/product/skilfish_car_cf/system/bin/xargs, out/target/product/skilfish_car_cf/system/bin/xxd, out/target/product/skilfish_car_cf/system/bin/yes, out/target/product/skilfish_car_cf/system/bin/zcat
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: toybox
+  Test_config: None
+  Dependencies: libc, libclang_rt.builtins, libcrypto, libdl, liblog, libm, libprocessgroup, libselinux, libz
+  Shared_libs: libc, libcrypto, libdl, liblog, libm, libprocessgroup, libselinux, libz
+  System_shared_libs: libc, libdl, libm
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: DEVICE, HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'toybox':
+  - external/toybox
+----------------------------------------
+Module Key: unpack_bootimg
+Fields for module 'unpack_bootimg':
+  Class: EXECUTABLES
+  Path: system/tools/mkbootimg
+  Tags: optional
+  Installed: out/host/linux-x86/bin/unpack_bootimg
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: unpack_bootimg
+  Test_config: None
+  Dependencies: libsqlite
+  Shared_libs: libsqlite
+  System_shared_libs: none
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'unpack_bootimg':
+  - system/tools/mkbootimg
+----------------------------------------
+Module Key: webRTC
+Fields for module 'webRTC':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/frontend/webrtc
+  Tags: optional
+  Installed: out/host/linux-x86/bin/webRTC
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: webRTC
+  Test_config: None
+  Dependencies: android.hardware.keymaster@4.0, cuttlefish_common_headers, libaom, libbase, libc++, libcap, libclang_rt.builtins, libclang_rt.ubsan_minimal, libcn-cbor, libcrypto, libcuttlefish_audio_connector, libcuttlefish_confui, libcuttlefish_confui_host, libcuttlefish_confui_host_headers, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_kernel_log_monitor_utils, libcuttlefish_screen_connector, libcuttlefish_security, libcuttlefish_utils, libcuttlefish_wayland_server, libcuttlefish_webrtc_common, libcuttlefish_webrtc_device, libcvd_gnss_grpc_proxy, libdrm, libevent, libext2_blkid, libffi, libfruit, libft2.nodep, libgflags, libgrpc++_unsecure, libjsoncpp, liblocation, libopus, libprotobuf-cpp-full, libsrtp2, libssl, libteeui, libteeui_localization, libvpx, libwayland_crosvm_gpu_display_extension_server_protocols, libwayland_extension_server_protocols, libwayland_server, libwebm_mkvmuxer, libwebrtc, libwebrtc_absl_headers, libwebsockets, libxml2, libyuv, webrtc_signaling_headers
+  Shared_libs: android.hardware.keymaster@4.0, libbase, libc++, libcrypto, libcuttlefish_fs, libcuttlefish_kernel_log_monitor_utils, libext2_blkid, libfruit, libgrpc++_unsecure, libjsoncpp, libopus, libprotobuf-cpp-full, libssl, libvpx, libwebm_mkvmuxer, libxml2, libyuv
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'webRTC':
+  - device/google/cuttlefish/host/frontend/webrtc
+----------------------------------------
+Module Key: webrtc_operator
+Fields for module 'webrtc_operator':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/frontend/webrtc_operator
+  Tags: optional
+  Installed: out/host/linux-x86/bin/webrtc_operator
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: webrtc_operator
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libcap, libclang_rt.builtins, libcrypto, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_host_websocket, libcuttlefish_utils, libext2_blkid, libgflags, libjsoncpp, liblog, libssl, libwebsockets, webrtc_signaling_headers
+  Shared_libs: libbase, libc++, libcrypto, libcuttlefish_fs, libext2_blkid, libjsoncpp, liblog, libssl
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'webrtc_operator':
+  - device/google/cuttlefish/host/frontend/webrtc_operator
+----------------------------------------
+Module Key: operator_proxy
+Fields for module 'operator_proxy':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/frontend/operator_proxy
+  Tags: optional
+  Installed: out/host/linux-x86/bin/operator_proxy
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: operator_proxy
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libgflags, libjsoncpp, liblog
+  Shared_libs: libbase, libc++, libcuttlefish_fs, libjsoncpp, liblog
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'operator_proxy':
+  - device/google/cuttlefish/host/frontend/operator_proxy
+----------------------------------------
+Module Key: wmediumd
+Fields for module 'wmediumd':
+  Class: EXECUTABLES
+  Path: external/wmediumd
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/wmediumd
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: wmediumd
+  Test_config: None
+  Dependencies: libbase, libc++, libclang_rt.builtins, libconfig, libgflags, libgrpc++_reflection, libgrpc++_unsecure, libnl, libprotobuf-cpp-full, libwmediumd_server
+  Shared_libs: libbase, libc++, libgflags, libgrpc++_unsecure, libnl, libprotobuf-cpp-full
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'wmediumd':
+  - external/wmediumd
+----------------------------------------
+Module Key: wmediumd_control
+Fields for module 'wmediumd_control':
+  Class: EXECUTABLES
+  Path: device/google/cuttlefish/host/commands/wmediumd_control
+  Tags: optional
+  Installed: out/host/linux-x86/bin/wmediumd_control
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: wmediumd_control
+  Test_config: None
+  Dependencies: cuttlefish_common_headers, libbase, libc++_static, libclang_rt.builtins, libcuttlefish_fs, libcuttlefish_host_config, libcuttlefish_utils, libcuttlefish_wmediumd_controller, libext2_blkid, libfruit, libgflags, libjsoncpp, liblog, libz, wmediumd_headers
+  Shared_libs: None
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'wmediumd_control':
+  - device/google/cuttlefish/host/commands/wmediumd_control
+----------------------------------------
+Module Key: wmediumd_gen_config
+Fields for module 'wmediumd_gen_config':
+  Class: EXECUTABLES
+  Path: external/wmediumd
+  Tags: gnu, optional
+  Installed: out/host/linux-x86/bin/wmediumd_gen_config
+  Compatibility_suites: None
+  Auto_test_config: None
+  Module_name: wmediumd_gen_config
+  Test_config: None
+  Dependencies: libc++, libclang_rt.builtins, libconfig
+  Shared_libs: libc++
+  System_shared_libs: None
+  Srcs: None
+  Srcjars: None
+  Classes_jar: None
+  Test_mainline_modules: None
+  Is_unit_test: 
+  Test_options_tags: None
+  Data: None
+  Runtime_dependencies: None
+  Static_dependencies: None
+  Data_dependencies: None
+  Supported_variants: HOST
+  Host_dependencies: None
+  Target_dependencies: None
+Path information for module 'wmediumd_gen_config':
+  - external/wmediumd
+----------------------------------------
