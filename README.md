@@ -4,7 +4,7 @@ cuttlefish The generated file is built under: out/host/linux-x86/cvd-host_packag
 The file is too large (511.12MB).
 Opening it might take some time and might make the IDE unresponsive. Do you want to open 'out/host/linux-x86/cvd-host_package.tar.gz' anyway?
 
-
+```
 entry point: device/google/cuttlefish/build/Android.bp
 registry file: out/target/product/skilfish_car_cf/module-info.json
 
@@ -23,7 +23,7 @@ python3 process_module_info.py ../out/target/product/skilfish_car_cf/module-info
 python3 process_module_info.py ../out/target/product/skilfish_car_cf/module-info.json --module-key=webrtc_operator
 
 
-
+```
 
 misc:
 
